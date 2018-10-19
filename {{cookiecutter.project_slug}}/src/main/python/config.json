@@ -1,0 +1,11 @@
+{
+  "default": {
+    "test-config": "test-config"
+  },
+  "unit-test": {
+  },
+  "ci": {
+  },
+  "prod": {
+  }
+}
