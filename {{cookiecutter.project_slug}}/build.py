@@ -15,7 +15,7 @@ default_task = "publish"
 
 @init
 def initialize(project):
-    build_number = project.get_property("bamboo_build")
+    build_number = project.get_property("build_number")
     if build_number is not None and "" != build_number:
         project.version = build_number
     else:
